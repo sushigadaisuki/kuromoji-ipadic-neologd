@@ -1,0 +1,5 @@
+dict/tid_pos.dat.gz filter=lfs diff=lfs merge=lfs -text
+dict/base.dat.gz filter=lfs diff=lfs merge=lfs -text
+dict/check.dat.gz filter=lfs diff=lfs merge=lfs -text
+dict/tid.dat.gz filter=lfs diff=lfs merge=lfs -text
+dict/tid.dat.gz filter=lfs diff=lfs merge=lfs -text
