@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm i node-fetch & npm i adm-zip & node postscript.js",
-    "build": "tsc"
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd#readme",
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3"
   }
