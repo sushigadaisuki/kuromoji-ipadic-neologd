@@ -1,6 +1,6 @@
 {
   "name": "kuromoji-neologd",
-  "version": "314159267.0.0",
+  "version": "314159268.0.0",
   "description": "kuromoji neologd dictionary",
   "exports": "./dist/main.js",
   "main": "dist/main.js",  
