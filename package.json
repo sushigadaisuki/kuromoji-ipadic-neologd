@@ -1,15 +1,16 @@
 {
   "name": "kuromoji-neologd",
-  "version": "31415.0.0",
+  "version": "314159.0.0",
   "description": "kuromoji neologd dictionary",
-  "exports": "./main.js",
+  "exports": "./dist/src/main.js",
   "dependencies": {
     "async": "^2.6.4",
     "kuromoji": "^0.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm i node-fetch & npm i adm-zip & node postscript.js"
+    "postinstall": "npm i node-fetch & npm i adm-zip & node postscript.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd/issues"
   },
-  "homepage": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd#readme"
+  "homepage": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
 }
