@@ -1,0 +1,27 @@
+{
+  "name": "kuromoji-neologd",
+  "version": "1.0.0",
+  "description": "kuromoji neologd dictionary",
+  "exports": "./main.js",
+  "dependencies": {
+    "async": "^2.6.4",
+    "doublearray": "^0.0.2",
+    "kuromoji": "^0.1.2",
+    "lodash": "^4.17.21",
+    "zlibjs": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushigadaisuki/kuromoji-ipadic-neologd.git"
+  },
+  "author": "sushigadaisuki",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd/issues"
+  },
+  "homepage": "https://github.com/sushigadaisuki/kuromoji-ipadic-neologd#readme"
+}
