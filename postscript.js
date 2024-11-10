@@ -5,6 +5,18 @@ import path from 'path';
 import url from 'node:url';
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
+
+const oldFolderName = path.join(__dirname, './dict');  
+const newFolderName = path.join(__dirname, './dict.bak'); 
+fs.rename(oldFolderName, newFolderName, (err) => {
+  if (err) {
+    console.error('フォルダ名の変更に失敗しました:', err);
+    return;
+  }
+  console.log('フォルダ名が正常に変更されました');
+});
+
+
 const file_url = 'https://github.com/sushigadaisuki/kuromoji-ipadic-neologd/releases/download/master/dict.zip';
 const outputPath = path.resolve(__dirname, '.'); 
 const zipPath = path.resolve(__dirname, 'dict.zip');
