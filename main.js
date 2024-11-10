@@ -1,2 +1,3 @@
 var path = require("path");
-module.exports = { neologdDict: path.resolve("./dict")};
+const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
+module.exports = { neologdDict: path.resolve(__dirname, "./dict")};
