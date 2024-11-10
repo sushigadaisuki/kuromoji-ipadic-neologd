@@ -5,14 +5,11 @@
   "exports": "./main.js",
   "dependencies": {
     "async": "^2.6.4",
-    "doublearray": "^0.0.2",
-    "kuromoji": "^0.1.2",
-    "lodash": "^4.17.21",
-    "zlibjs": "^0.3.1"
+    "kuromoji": "^0.1.2"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postscript.js"
   },
   "repository": {
     "type": "git",
