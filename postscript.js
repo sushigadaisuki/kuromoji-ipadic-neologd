@@ -1,16 +1,3 @@
-console.log("info: downloading neologd by postinstall script...");
-console.log("If it fails, you can manually download and place the files.");
-console.log("Extract and put into './dict'");
-console.log("https://github.com/sushigadaisuki/kuromoji-ipadic-neologd/releases");
-
-import { execSync } from 'child_process';
-const libraries = ['node-fetch', "adm-zip"];
-libraries.forEach(lib => {
-  console.log(`Installing ${lib}...`);
-  execSync(`npm install ${lib} --no-save`, { stdio: 'inherit' });
-});
-
-
 import fetch from 'node-fetch';
 import AdmZip from 'adm-zip';
 import fs from 'fs';
