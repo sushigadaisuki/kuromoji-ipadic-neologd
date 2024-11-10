@@ -1,3 +1,3 @@
-declare module "./main" {
+declare module "kuromoji-neologd" {
     export const neologdDict: string;
-  }
+}
