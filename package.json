@@ -3,6 +3,8 @@
   "version": "314159265.0.0",
   "description": "kuromoji neologd dictionary",
   "exports": "./dist/src/main.js",
+  "main": "dist/index.js",  
+  "types": "dist/index.d.ts",
   "dependencies": {
     "async": "^2.6.4",
     "kuromoji": "^0.1.2"
