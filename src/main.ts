@@ -1,2 +1,3 @@
-import path from "path";
-module.exports = { neologdDict: path.resolve(__dirname, "../dict")};
+import * as path from "path";
+const neologdDict = path.resolve(__dirname, "../dict");
+export { neologdDict };
