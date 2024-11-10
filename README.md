@@ -12,7 +12,7 @@ npm i kuromoji-neologd
 ## example
 ```javascript
 import kuromoji from "kuromoji";
-import { neologdDict } from "kuromoji-ipadic-neologd";
+import { neologdDict } from "kuromoji-neologd";
 
 (async ()=>{
     kuromoji.builder({ dicPath: neologdDict }).build(function (err, tokenizer) {

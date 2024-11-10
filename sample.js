@@ -1,5 +1,5 @@
 import kuromoji from "kuromoji";
-import { neologdDict } from "kuromoji-ipadic-neologd";
+import { neologdDict } from "kuromoji-neologd";
 
 console.log(neologdDict);
 
